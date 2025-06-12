@@ -41,7 +41,7 @@ export default async function handler(req, res) {
   }
 
   if (req.method === 'GET'){
-    res.status(200).send("<h1>Create Paradise community link</h1><p>onze bot verbindt meerdere kanalen om samen te kunnen chatten over meerdere servers!</p>")
+    res.status(200).send("<h1>Create Paradise community link</h1><p>onze bot verbindt meerdere kanalen om samen te kunnen chatten over meerdere servers!</p><p>Om webhooks te sturen graag de volgende dingen includeren: content, username, avatar_url")
   }
 }
 

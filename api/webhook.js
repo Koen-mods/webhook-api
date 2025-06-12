@@ -40,7 +40,7 @@ export default async function handler(req, res) {
     }
   }
 
-  if (req.method === 'POST'){
+  if (req.method === 'GET'){
     res.status(200).send("<h1>Create Paradise community link</h1><p>onze bot verbindt meerdere kanalen om samen te kunnen chatten over meerdere servers!</p>")
   }
 }

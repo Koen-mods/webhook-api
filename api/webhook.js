@@ -13,7 +13,7 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing content, username, or avatar_url. Please provide all information.' });
     }
 
-    const webhookURL = process.env.DISCORD_WEBHOOK_URL;
+    const webhookURL = [process.env.DISCORD_WEBHOOK_URL, 'https://discord.com/api/webhooks/1382778143789809754/Nfb6Ijye9lbtH9lK1zTuYNWMWrIZXi8vQxJLaJYC-NRYYQdKefZb5lcUKbYKrVVut_M5'];
     if (!webhookURL) {
       return res.status(500).json({ error: 'Webhook URL not configured' });
     }

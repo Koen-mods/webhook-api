@@ -64,9 +64,5 @@ export default async function handler(req, res) {
     } catch (error) {
       res.status(500).json({ error: 'Failed to send message', details: error.message });
     }
-
-    if(req.method === 'GET') {
-      res.status(200).send(<html><head><style type="text/css" id="operaUserStyle"></style></head><body><h1>Create Paradise community link</h1><p>onze bot verbindt meerdere kanalen om samen te kunnen chatten over meerdere servers!</p><p>Om webhooks te sturen graag de volgende dingen includeren: content, username, avatar_url</p></body></html>)
-    }
 }
 

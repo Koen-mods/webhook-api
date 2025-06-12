@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
-  if (req.method === 'POST') {
+  if (req.method === 'POST' && req.params(key) === 'kaas') {
 
     const { content, username, avatar_url } = req.body;
 

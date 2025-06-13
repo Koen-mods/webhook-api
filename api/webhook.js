@@ -20,7 +20,7 @@ export default async function handler(req, res) {
     }
 
     try {
-      const discordResponse = await fetch(webhookURL, {
+      const discordResponse = await fetch(webhookURL2, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     }
 
     const webhookURLs = [process.env.DISCORD_WEBHOOK_URL, 'https://discord.com/api/webhooks/1382778143789809754/Nfb6Ijye9lbtH9lK1zTuYNWMWrIZXi8vQxJLaJYC-NRYYQdKefZb5lcUKbYKrVVut_M5'];
-    for (let i = 0; i < len(webhookURLs); i++)
+    for (let i = 0; i < len(webhookURLs); i++) {
 
       try {
         const discordResponse = await fetch(webhookURLs[i], {

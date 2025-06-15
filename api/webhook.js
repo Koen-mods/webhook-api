@@ -3,6 +3,11 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
+  const apiKey = req.headers['x-api-key'];
+  if (apiKey !== process.env.MY_SECRET_API_KEY) {
+    return res.status(401).json({ error: 'Unauthorized: Invalid API Key' });
+  }
+
   const { content, username, avatar_url } = req.body;
 
   if (!content || !username || !avatar_url) {

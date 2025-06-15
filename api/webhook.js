@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 
   const webhookURLs = [
     process.env.DISCORD_WEBHOOK_URL,
-    precess.env.DISCORD_WEBHOOK_URL2,
+    process.env.DISCORD_WEBHOOK_URL2,
   ];
 
   try {

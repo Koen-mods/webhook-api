@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 
   const webhookURLs = [
     process.env.DISCORD_WEBHOOK_URL,
-    'https://discord.com/api/webhooks/1382778143789809754/Nfb6Ijye9lbtH9lK1zTuYNWMWrIZXi8vQxJLaJYC-NRYYQdKefZb5lcUKbYKrVVut_M5',
+    precess.env.DISCORD_WEBHOOK_URL2,
   ];
 
   try {

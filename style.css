@@ -25,3 +25,11 @@ body {
   color: #ffffff;
   box-shadow: -2px 0 6px rgba(212, 175, 55, 0.3);
 }
+
+#credits {
+  font-size: 30px;
+}
+
+footer {
+  border-top: solid gray 2px;
+}

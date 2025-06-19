@@ -6,6 +6,7 @@ body {
 .title-wrapper {
   color: #f0bf60;
   text-align: center;
+  box-shadow: -2px 0 6px rgba(212, 175, 55, 0.3);
 }
 
 .werking {
@@ -13,6 +14,8 @@ body {
   border-radius: 15px;
   border-left: solid #f0bf60 4px;
   padding-left: 10px;
+  color: #ffffff;
+  box-shadow: -2px 0 6px rgba(212, 175, 55, 0.3);
 }
 
 .lidmaatschap {
@@ -20,4 +23,6 @@ body {
   border-radius: 15px;
   border-left: solid #f0bf60 4px;
   padding-left: 10px;
+  color: #ffffff;
+  box-shadow: -2px 0 6px rgba(212, 175, 55, 0.3);
 }

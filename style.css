@@ -8,10 +8,12 @@ body {
 
 .werking {
   background-color: #202020;
+  border-radius: 15%;
+  border-left: solid #f0bf60 4px;
 }
 
 .lidmaatschap {
   background-color: #202020;
   border-radius: 15px;
-  border-left: solid #f0bf60 10px;
+  border-left: solid #f0bf60 4px;
 }

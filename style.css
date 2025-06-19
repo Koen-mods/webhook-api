@@ -12,4 +12,6 @@ body {
 
 .lidmaatschap {
   background-color: #202020;
+  border-radius: 75%;
+  border-left: solid #f0bf60 10px;
 }

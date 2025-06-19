@@ -27,9 +27,11 @@ body {
 }
 
 #credits {
-  font-size: 30px;
+  font-size: 5px;
 }
 
 footer {
   border-top: solid gray 2px;
+  position: absolute;
+  bottom: 2px;
 }

@@ -36,3 +36,8 @@ footer {
   bottom: 2px;
   width: 100%;
 }
+
+#interesse {
+  color: red;
+  border-radius: 5px;
+}

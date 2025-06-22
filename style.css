@@ -43,4 +43,5 @@ footer {
   border-radius: 5px;
   transition: transform 0.3s ease;
   transform: scale(1.0);
+  cursor: pointer;
 }

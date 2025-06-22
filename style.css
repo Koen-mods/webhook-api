@@ -41,5 +41,6 @@ footer {
   background-color: red;
   border: solid #000000 1px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
   transform: scale(1.0);
 }

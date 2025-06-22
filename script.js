@@ -4,8 +4,10 @@ const b = document.getElementById("interresse");
   
 
 function interesse() {
-  people++
+  people++;
   p.innerHTML = `Geïnteresseerde mensen: ${people}`;
-  b.style.transfrom = "scale(2.0)";
-  b.style.transfrom = "scale(1.0)";
+  b.style.transform = "scale(1.2)";
+  setTimeout(() => {
+    b.style.transform = "scale(1.0)";
+  }, 150);
 }
